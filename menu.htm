@@ -1,0 +1,90 @@
+<!-- 
+*****************************************************************************
+Title: Rentals page
+Use: Rental page.
+Author: Adan Morales
+School/Term: Southern Illinois University, Spring 2023
+Developed: May 12, 2023
+Tested: May 12, 2023; Passed on Firefox, Safari and Chrome browsers.
+******************************************************************************
+-->
+
+<!DOCTYPE html>
+<!--Declaration tells web browser what type of file we're using-->
+<html lang="en-US">
+<!--This defaults langauge to english-->
+    
+<head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" sizes="16x16" href="Food%20Delivery.png">
+        <title>Rentals</title>
+        
+    
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        <script src="jquery.slicknav.min.js"></script>
+        
+        <link rel="stylesheet" href="mymode1.css" />
+        <link rel="stylesheet" href="slicknav.min.css" /> 
+        
+        <script>
+	$(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+	});
+</script>    
+    
+</head>
+<body>
+      <nav id = "mobile_menu"></nav>  
+      <nav id ="nav_menu">
+        <u1>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="Menu.htm">Menu</a></li>
+            <li><a href="Catering.htm">Catering</a></li>
+            <li><a href="cart.htm">Shopping Cart</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+        </u1>
+    
+    </nav>
+        <h1>Menu</h1>
+
+    <section class="container2">
+        
+            <div class="card">
+            <div class="card-image beef"> </div>
+            <h2>Steak dinner</h2>
+            <p>Dry aged Ribeye cooked to your preference, with vegtables, and salad.</p>   
+            <a href="">Add to Cart</a>
+            </div>
+            
+    
+            <div class="card">
+            <div class="card-image chkn"> </div>
+            <h2>Chicken dinner</h2>
+            <p>Dry aged Ribeye cooked to your preference, with vegtables, and salad.</p> 
+            <a href="">Add to Cart</a>
+            </div>
+              
+        
+            <div class="card">
+            <div class="card-image bowl1"> </div>
+            <h2>Health Bowl 1</h2>
+            <p>Made to order bowl with beats toped with nuts, cottage cheese and fresh parsley.</p>
+            <a href="">Add to Cart</a>
+            </div>
+        
+            <div class="card">
+            <div class="card-image bowl2"> </div>
+            <h2>Health Bowl 2</h2>
+            <p>Made to order bowl with avacodo with cabbage, cucumber, tomatoes and mangos.</p>
+            <a href="">Add to Cart</a>
+            </div>
+            
+    
+      
+    
+    </section>
+
+</body>
+</html>
